@@ -1,0 +1,268 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: #1b1a1a;
+    font-family: Avenir, arial;
+    color: whitesmoke;
+}
+header{
+    margin-bottom: 20px;
+}
+.head{
+    display: flex;
+    justify-content: flex-start;
+    border: 10px solid rgba(235, 235, 235, 0.5);
+    border-radius: 200pt;
+    margin: 60px;
+}
+.portfolio{
+    padding-top: 30pt;
+    padding-left: 60pt;
+    padding-bottom: 30pt;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 120pt;
+    color: rgba(235, 235, 235, 0.5);  
+}
+.clignote{
+    padding-top: 30pt;
+    padding-bottom: 30pt;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 115pt;
+    color: rgba(235, 235, 235, 0.5);  
+
+    animation-duration: .8s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+@keyframes clignoter{
+    0%   { opacity:1; }
+    40%  { opacity:0; }
+    100% { opacity:1; }
+}
+.nom{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 483pt;
+    font-size: 65pt;
+    font-weight: bold;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+    color: #1b1a1a;
+    background-color: orange;
+    margin-bottom: 50px;
+}
+.section{
+    margin: 60px;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+.titre{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    position: relative;
+}
+.titre::before{
+    content: "";
+    position: absolute;
+    background-color: orange;
+    width: 40px;
+    height: 5px;
+    bottom: 0;
+}
+.sous-titre{
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgba(235, 235, 235, 0.5);
+}
+.bande{
+    min-height: 100px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.outil{
+    font-size: 15pt;
+    margin-bottom: 40pt;
+    color: rgba(235, 235, 235, 0.9);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+.legende{
+    color: rgba(235, 235, 235, 0.6);
+    font-size: small;
+}
+.legendeVoid{
+    color: #1b1a1a;
+}
+
+/* Générique */
+
+.square{
+    margin: 2vh;
+    width: 100%;
+}
+.affiche{
+    margin: 2vh;
+    width: 100%;
+}
+
+/* Logos */
+
+.clap{
+    margin: 2vh;
+    width: 53%;
+}
+.mulhouse{
+    margin: 2vh;
+    width: 100%;
+}
+
+
+/* Réseaux sociaux */
+
+.ateliers{
+    margin: 2vh;
+    width: 100%;
+}
+
+
+/* Audiovisuel */
+
+.youtube{
+    margin: 5vh;
+   
+}
+
+
+/* Photos */
+
+.lego{
+    margin: 2vh;
+    width: 99%;
+}
+.manette{
+    margin: 2vh;
+    width: 80%;
+}
+.wii{
+    margin: 2vh;
+    width: 42%;
+}
+.casque{
+    margin: 2vh;
+    width: 56%;
+}
+
+
+.console{
+    margin: 2vh;
+    width: 100%;
+}
+.tti{
+    margin: 2vh;
+    width: 100%;
+}
+.julia{
+    margin: 2vh;
+    width: 100%;
+}
+.fume{
+    margin: 2vh;
+    width: 100%;
+}
+
+/* Pot-pourri */
+
+.livre{
+    margin: 2vh;
+    width: 89%;
+}
+.infographie{
+    margin: 2vh;
+    width: 57%;
+}
+.illustration{
+    margin-top: 25pt;
+    width: 55%;
+}
+
+
+footer{
+    padding-left: 80pt;
+    padding-right: 80pt;
+    font-size: 15pt;
+    color: #1b1a1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+}
+
+
+/**************\
+/* CSS Tricks *\
+/**************\
+
+Flexbox Tricks :
+**************
+
+display: flex;
+
+justify content (horizontal){
+    flex-start: gauche
+    flex-end: droite
+    center: centre
+    space-between: répartis uniformément
+    space-around: répartis uniformément avec un espace égal autour d'eux
+}
+
+align items (vertical){
+    flex-start: haut
+    flex-end: bas
+    center: centre
+    stretch: étirés pour remplir l'écran
+    baseline: les lignes de textes des blocs s'alignent
+    align-self: contôle un élément
+}
+
+flex-direction{
+    row: haut
+    row-reverse: bas
+    center: centre
+    stretch: étirés pour remplir l'écran
+    baseline: les lignes de textes des blocs s'alignent
+}
+
+
+flex: 1 {
+    l'élement prend toute la place restante
+}
+
+flex: 2 {
+    prend 2 fois plus de place que flex: 1
+}
+
+Chemin de classe {
+    .classeParent>.classeEnfant {
+        ...
+    }
+}
+
+Image de fond {
+    background-image: url("../img/bar.jpg");
+    background-size: cover;
+}
+
+Taille auto d'un lien bouton{
+    display: inline-block;
+}
