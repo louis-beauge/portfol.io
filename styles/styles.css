@@ -18,20 +18,20 @@ header{
     margin: 60px;
 }
 .portfolio{
-    padding-top: 30pt;
-    padding-left: 60pt;
-    padding-bottom: 30pt;
+    padding-top: 4vh;
+    padding-left: 15vh;
+    padding-bottom: 4vh;
     font-family: Avenir, Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 120pt;
+    font-size: 20vh;
     color: rgba(235, 235, 235, 0.5);  
 }
 .clignote{
-    padding-top: 30pt;
-    padding-bottom: 30pt;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
     font-family: Avenir, Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 115pt;
+    font-size: 20vh;
     color: rgba(235, 235, 235, 0.5);  
 
     animation-duration: .8s;
@@ -45,15 +45,22 @@ header{
     100% { opacity:1; }
 }
 .nom{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 483pt;
+    padding-top: 15pt;
+    padding-bottom: 15pt;
+    padding-left: 490pt;
+    padding-right: 41pt;
     font-size: 65pt;
     font-weight: bold;
     font-family: Avenir, Arial, Helvetica, sans-serif;
     color: #1b1a1a;
     background-color: orange;
     margin-bottom: 50px;
+    /*display: flex;*/
+}
+.sign{
+    /*align-items: center;*/
+    display: flex;
+    
 }
 .section{
     margin: 60px;
@@ -92,7 +99,6 @@ header{
     margin-bottom: 40pt;
     color: rgba(235, 235, 235, 0.9);
 }
-
 img{
     width: 100%;
     height: auto;
@@ -139,8 +145,7 @@ img{
 /* Audiovisuel */
 
 .youtube{
-    margin: 5vh;
-   
+    margin: 5vh; 
 }
 
 
