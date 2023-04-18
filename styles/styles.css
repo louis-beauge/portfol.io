@@ -1,6 +1,3 @@
-html{
-    scroll-behavior: smooth;
-}
 body{
     margin: 0;
     background-color: #1b1a1a;
@@ -10,6 +7,114 @@ body{
 header{
     margin-bottom: 20px;
 }
+
+button {
+    padding: 20px;
+    margin: 50px;
+    background-color: #FFF0DD;
+    border-radius: 15px;
+    color: #1B1B1B;
+    font-family: "ubuntu", "avenir", Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    border-width: 2px;
+    border-color: #1B1B1B;
+    border-style: solid;
+    cursor: pointer;
+}
+
+button:hover {
+    padding: 20px;
+    margin: 50px;
+    background-color: #1B1B1B;
+    border-radius: 15px;
+    color: #FFF0DD;
+    font-family: "ubuntu", "avenir", Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    border-width: 2px;
+    border-color: #1B1B1B;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.ancien-site {
+    text-decoration: none;
+}
+
+.ancien-site:hover {
+    text-decoration: underline;
+}
+/*
+button {
+    top: 0;
+    left: 0;
+    transition: all .15s linear 0s;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    background-color: #FFF0DD;
+    border-radius: 15px;
+    color: #1B1B1B;
+    font-family: "ubuntu";
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    text-decoration: none;
+    border-width: 2px;
+    border-color: #1B1B1B;
+    border-style: solid;
+    cursor: pointer;
+}
+
+button:hover {
+    border-color: #1B1B1B;
+    box-shadow: 0px 0px 0px #1B1B1B;
+    transition: box-shadow 0.25s;
+margin: 0 2rem 2.3125rem 0;
+    font-size: large;
+    border-radius: 15px;
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: ubuntu, avenir, Helvetica, sans-serif;
+        box-shadow: 5px 5px 0 #1b1b1b51;
+}*/
+
+.closed {
+    font-size: 75pt;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.ancien-titre {
+    color: #1B1B1B;
+    font-family: ubuntu;
+    font-weight: bold;
+    font-size: xx-large;
+    margin: 50px;
+}
+
+.ancien-sous-titre {
+    color: #1B1B1B;
+    font-family: ubuntu;
+    font-weight: lighter;
+    font-size:medium
+}
+.ancien-site {
+    color: #1B1B1B;
+    font-family: ubuntu;
+    font-weight: lighter;
+    font-size: small
+}
+
+.landing-page {
+    background-color: #FFF0DD;
+    text-align: center;
+    align-items: center;
+}
+
 .head{
     display: flex;
     justify-content: flex-start;
@@ -168,7 +273,6 @@ img{
     width: 56%;
 }
 
-
 .console{
     margin: 2vh;
     width: 100%;
@@ -200,7 +304,6 @@ img{
     margin-top: 25pt;
     width: 70%;
 }
-
 
 footer{
     padding-left: 80pt;
